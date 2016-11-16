@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,700,400italic,700italic);
 
 html {
   background-color: #313744; }
@@ -13,10 +13,14 @@ body {
   background: #313744;
   background-color: #313744; }
 
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300 !important;
+}
+
 .reveal {
-  font-family: "Lato", san-serif;
+  font-family: "Roboto", san-serif;
   font-size: 32px;
-  font-weight: normal;
+  font-weight: 400 !important;
   color: #fff; }
 
 ::selection {
@@ -349,7 +353,7 @@ body {
   .reveal .demo-ios {
     position: relative;
     top: -40px;
-    background: url("/img/devices-sprite-transparent.png") no-repeat;
+    background: url("../img/devices-sprite-transparent.png") no-repeat;
     background-size: 455px 1559px;
     width: 460px;
     height: 740px; }
@@ -362,7 +366,7 @@ body {
   .reveal .demo-md {
     position: relative;
     top: -60px;
-    background: url("/img/devices-sprite-transparent.png") no-repeat 0px -775px;
+    background: url("../img/devices-sprite-transparent.png") no-repeat 0px -775px;
     background-size: 455px 1559px;
     width: 460px;
     height: 780px; }
